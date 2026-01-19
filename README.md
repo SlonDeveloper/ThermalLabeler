@@ -11,11 +11,9 @@ ThermalLabeler Принимает данные для печати, коррек
 - поворот (rotation)
 
 Печатает напрямую:
-<ul>
-  <li>через Bluetooth
-  <li>через USB
-  <li>через Wi-Fi
-</ul>
+- через Bluetooth
+- через USB
+- через Wi-Fi
 
 Работает как Android PrintService, т.е.:
 - доступна из стандартного диалога «Печать»
