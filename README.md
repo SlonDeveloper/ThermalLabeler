@@ -43,7 +43,7 @@ Printing is performed directly via:
 
 The application works as an Android PrintService, which means:
 - it is available from the standard “Print” system dialog
-- it can be used by any application (1C, web browsers, PDF viewers, etc.)
+- it can be used by any application (business software, web browsers, PDF viewers, etc.)
 
 ## Supported input formats
 
@@ -72,4 +72,4 @@ without the need to select the file again or reconfigure label parameters.
 
 - printing price tags and barcodes
 - printing warehouse and shipping labels
-- printing from 1C and custom Android applications
+- printing from business software and custom Android applications
