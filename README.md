@@ -2,10 +2,9 @@
 
 **ThermalLabeler** is a utility for printing labels on thermal printers from Android without being tied to a specific manufacturer and without proprietary drivers.
 
-Important: this application is intended exclusively for use with label thermal printers that support TSPL mode.
-The application is not designed for regular office, inkjet, laser, receipt, or other types of printers and does not work with them.
-Only label printers with a compatible TSPL printing interface are supported.
-The application acts as a bridge between Android and a thermal printer, providing full control over label printing where standard solutions do not work or become restrictive.
+Important: The application is intended exclusively for use with label thermal printers that support TSPL mode.
+The application is not designed for and does not work with regular office, inkjet, laser, receipt, or other types of printers.
+If your printer is not designed for printing self-adhesive labels or does not support the TSPL command language, the application will not be able to print.
 
 The application acts as a bridge between Android and a thermal printer, providing full control over label printing where standard solutions do not work or become restrictive.
 
