@@ -1,7 +1,10 @@
 # ThermalLabeler
 
-**ThermalLabeler** es una utilidad para imprimir etiquetas en impresoras térmicas desde Android  
-sin dependencia de un fabricante específico y sin controladores propietarios.
+**ThermalLabeler** es una utilidad para imprimir etiquetas en impresoras térmicas desde Android sin dependencia de un fabricante específico y sin controladores propietarios.
+
+Importante: la aplicación está diseñada exclusivamente para funcionar con impresoras térmicas de etiquetas compatibles con el modo TSPL.
+La aplicación no está diseñada para impresoras de oficina, de inyección de tinta, láser, de recibos ni otros tipos de impresoras, y no funciona con ellas.
+Solo se admiten impresoras de etiquetas con una interfaz de impresión TSPL compatible.
 
 La aplicación actúa como un puente entre Android y la impresora térmica y proporciona control total sobre la impresión de etiquetas donde las soluciones estándar no funcionan o resultan incómodas.
 
