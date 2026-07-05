@@ -3,7 +3,7 @@
 **ThermalLabeler** — Утилита для печати на термопринтерах из Android без привязки к производителю и без фирменных драйверов.
 
 <p align="center">
-  <img src="images/roll.jpg" alt="Receipt roll" width="220">
+  <img src="images/roll.jpg" alt="Receipt roll" width="300">
 </p>
 
 Утилита для печати ThermalLabeler — это приложение для печати с устройств Android на совместимых термопринтерах без привязки к конкретному производителю и без драйверов.
