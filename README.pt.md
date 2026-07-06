@@ -97,5 +97,6 @@ A partir do histórico, é possível reabrir um trabalho e realizar uma nova imp
 
 - impressão de etiquetas de preço e códigos de barras
 - impressão de etiquetas para estoque e transporte
+- Impressão de recibos e outros documentos em papel térmico em rolo
 - impressão a partir de sistemas comerciais
 - impressão a partir de aplicativos Android personalizados
