@@ -96,6 +96,7 @@ Desde el historial se puede volver a abrir un trabajo y repetir la impresión si
 ## Escenarios de uso típicos
 
 - impresión de etiquetas de precios y códigos de barras  
-- impresión de etiquetas de almacén y transporte  
+- impresión de etiquetas de almacén y transporte
+- Impresión de recibos y otros documentos en papel térmico en rollo
 - impresión desde sistemas comerciales  
 - impresión desde aplicaciones Android personalizadas  
