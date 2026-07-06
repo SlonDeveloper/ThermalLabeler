@@ -1,18 +1,22 @@
 # ThermalLabeler
 
-**ThermalLabeler** ist eine Anwendung zum Drucken von Etiketten auf Thermoetikettendruckern unter Android – herstellerunabhängig und ohne proprietäre Treiber.
+**ThermalLabeler** ist eine Android-Anwendung zum Drucken auf Thermodruckern ohne Bindung an einen bestimmten Hersteller und ohne proprietäre Treiber.
 
-**Wichtig:** Die Anwendung ist ausschließlich für Thermoetikettendrucker vorgesehen, die den **TSPL-Modus** unterstützen.
-Sie ist **nicht** für herkömmliche Büro-, Tintenstrahl-, Laser-, Beleg- oder andere Druckertypen geeignet und funktioniert mit diesen nicht.
-Wenn Ihr Drucker nicht zum Drucken selbstklebender Etiketten vorgesehen ist oder die TSPL-Befehlssprache nicht unterstützt, kann die Anwendung keine Druckaufträge ausführen.
+<p align="center">
+  <img src="images/roll.jpg" alt="Receipt roll" width="300">
+</p>
 
-Die Anwendung dient als Brücke zwischen Android und dem Thermoetikettendrucker und bietet vollständige Kontrolle über den Etikettendruck – insbesondere dort, wo Standardlösungen nicht ausreichen oder Einschränkungen verursachen.
-
-Sie löst eine praktische Aufgabe:
-
-**Wie druckt man ein Etikett von einem Android-Smartphone oder -Tablet auf einem gewöhnlichen Thermoetikettendrucker im TSPL-Modus?**
-
-Vor dem Drucken wird der Dateiinhalt automatisch in ein Rasterlayout umgewandelt, an die tatsächliche Etikettengröße skaliert und unter Berücksichtigung von Ausrichtung, Rändern und Druckereinstellungen vorbereitet.
+Wichtig: Die Anwendung ist ausschließlich für Thermodrucker vorgesehen, die die Modi <b>TSPL</b> und/oder <b>ESC/POS</b> unterstützen:
+<ul>
+  <li><b>TSPL</b> - zum Drucken selbstklebender Etiketten
+  <li><b>ESC/POS</b> - zum Drucken auf Thermorollenpapier (Kassenbons, Quittungen, Tickets und andere Dokumente)
+</ul>
+Die Anwendung ist nicht für herkömmliche Büro-, Tintenstrahl-, Laser- oder andere Drucker geeignet und funktioniert nicht mit ihnen. Unterstützt werden ausschließlich Thermodrucker mit einer kompatiblen <b>TSPL</b>- und/oder <b>ESC/POS</b>-Druckschnittstelle.
+<BR>
+<BR>Die Anwendung dient als Brücke zwischen Android und einem Thermodrucker und ermöglicht die vollständige Kontrolle über den Druck von Etiketten und Dokumenten auf Thermorollenpapier, wenn Standardlösungen nicht funktionieren oder Einschränkungen verursachen. Sie löst ein praktisches Problem: das Drucken eines Etiketts oder Dokuments von einem Smartphone oder Tablet auf einem kompatiblen Thermodrucker.
+<BR>
+<BR>Vor dem Drucken wird der Inhalt der Datei automatisch in ein Rasterbild umgewandelt.
+<BR>Beim Etikettendruck wird das Rasterbild auf die tatsächliche Etikettengröße skaliert und unter Berücksichtigung von Ausrichtung, Rändern und Druckereinstellungen vorbereitet. Beim Drucken auf einem Bondrucker wird das Rasterbild auf die Papierbreite skaliert.
 
 ---
 
