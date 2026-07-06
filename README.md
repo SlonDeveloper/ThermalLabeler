@@ -96,6 +96,7 @@ From the history, you can reopen a print job and perform reprinting without sele
 ## Typical Use Cases
 
 - printing price tags and barcodes  
-- printing warehouse and shipping labels  
+- printing warehouse and shipping labels
+- Printing receipts and other documents on receipt paper
 - printing from POS systems  
 - printing from custom Android applications  
