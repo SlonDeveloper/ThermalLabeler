@@ -1,17 +1,22 @@
 # ThermalLabeler
 
-**ThermalLabeler** es una utilidad para imprimir etiquetas en impresoras térmicas desde Android sin dependencia de un fabricante específico y sin controladores propietarios.
+**ThermalLabeler** es una aplicación para Android que permite imprimir en impresoras térmicas sin depender de controladores propietarios del fabricante.
 
-Importante: La aplicación está destinada exclusivamente al uso con impresoras térmicas de etiquetas que admitan el modo TSPL.
-La aplicación no está diseñada para impresoras de oficina convencionales, de inyección de tinta, láser, de recibos ni para otros tipos de impresoras, y no funciona con ellas.
-Si su impresora no está diseñada para imprimir etiquetas autoadhesivas o no admite el lenguaje de comandos TSPL, la aplicación no podrá realizar la impresión.
+<p align="center">
+  <img src="images/roll.jpg" alt="Receipt roll" width="300">
+</p>
 
-La aplicación actúa como un puente entre Android y la impresora térmica y proporciona control total sobre la impresión de etiquetas donde las soluciones estándar no funcionan o resultan incómodas.
-
-La aplicación resuelve una tarea práctica:  
-cómo imprimir una etiqueta desde un teléfono o tablet en una impresora térmica común en modo TSPL.
-
-Antes de imprimir, el contenido del archivo se convierte automáticamente en un diseño rasterizado, se escala al tamaño real de la etiqueta y se prepara teniendo en cuenta la orientación, los márgenes y los parámetros de la impresora.
+Importante: la aplicación está diseñada exclusivamente para impresoras térmicas compatibles con los modos <b>TSPL</b> y/o <b>ESC/POS</b>:
+<ul>
+  <li><b>TSPL</b> - se utiliza para imprimir etiquetas autoadhesivas
+  <li><b>ESC/POS</b> - se utiliza para imprimir en papel térmico en rollo (recibos, comprobantes, tickets y otros documentos)
+</ul>
+La aplicación no está diseñada para impresoras de oficina convencionales, de inyección de tinta, láser u otros tipos de impresoras y no funciona con ellas. Solo se admiten impresoras térmicas con una interfaz de impresión compatible con <b>TSPL</b> y/o <b>ESC/POS</b>.
+<BR>
+<BR>La aplicación actúa como un puente entre Android y la impresora térmica, proporcionando un control total sobre la impresión de etiquetas y documentos en papel térmico en rollo cuando las soluciones estándar no funcionan o presentan limitaciones. Resuelve un problema práctico: cómo imprimir una etiqueta o un documento desde un teléfono o una tableta en una impresora térmica compatible.
+<BR>
+<BR>Antes de imprimir, el contenido del archivo se convierte automáticamente en una imagen rasterizada.
+<BR>Al imprimir etiquetas, la imagen rasterizada se ajusta al tamaño real de la etiqueta teniendo en cuenta la orientación, los márgenes y la configuración de la impresora. Al imprimir en una impresora de recibos, la imagen rasterizada resultante se ajusta al ancho del papel.
 
 ---
 
