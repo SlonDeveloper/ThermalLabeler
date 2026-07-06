@@ -1,17 +1,22 @@
 # ThermalLabeler
 
-**ThermalLabeler** is a utility for printing labels on thermal printers from Android without being tied to a specific manufacturer and without proprietary drivers.
+**ThermalLabeler** is an Android application for printing to thermal printers without relying on manufacturer-specific drivers.
 
-Important: The application is intended exclusively for use with label thermal printers that support TSPL mode.
-The application is not designed for and does not work with regular office, inkjet, laser, receipt, or other types of printers.
-If your printer is not designed for printing self-adhesive labels or does not support the TSPL command language, the application will not be able to print.
+<p align="center">
+  <img src="images/roll.jpg" alt="Receipt roll" width="300">
+</p>
 
-The application acts as a bridge between Android and a thermal printer, providing full control over label printing where standard solutions do not work or become restrictive.
-
-It solves a practical task:  
-how to print a label from a phone or tablet to a regular thermal printer operating in TSPL mode.
-
-Before printing, the file content is automatically converted into a raster layout, scaled to the actual label size, and prepared according to orientation, margins, and printer parameters.
+Important: the application is intended exclusively for use with thermal printers that support <b>TSPL</b> and/or <b>ESC/POS</b>:
+<ul>
+  <li><b>TSPL</b> - used for printing self-adhesive labels
+  <li><b>ESC/POS</b> - used for printing on thermal receipt paper (receipts, invoices, tickets, and other documents)
+</ul>
+The application is not intended for conventional office, inkjet, laser, or other types of printers and will not work with them. Only thermal printers with a compatible <b>TSPL</b> and/or <b>ESC/POS</b> printing interface are supported.
+<BR>
+<BR>The application acts as a bridge between Android and a thermal printer, providing full control over printing labels and documents on thermal receipt paper where standard Android printing solutions are unavailable or create limitations. It solves a practical problem: how to print a label or a document from a phone or tablet to a compatible thermal printer.
+<BR>
+<BR>Before printing, the file contents are automatically converted into a raster image.
+<BR>When printing labels, the raster image is scaled to the actual label size and prepared according to the selected orientation, margins, and printer settings. When printing on a receipt printer, the resulting raster image is scaled to the paper width.
 
 ---
 
