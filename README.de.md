@@ -97,5 +97,6 @@ Ein Druckauftrag kann jederzeit erneut geöffnet und ohne erneute Dateiauswahl o
 
 * Drucken von Preisschildern und Barcodes
 * Drucken von Lager- und Versandetiketten
+* Drucken von Belegen und anderen Dokumenten auf Thermopapierrollen
 * Drucken aus Warenwirtschaftsprogrammen
 * Drucken aus eigenen Android-Anwendungen
